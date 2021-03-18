@@ -6,7 +6,7 @@
 #include<time.h>
 using namespace std;
 
-
+// 若使用自定义数据类型，请务必重载<, ==, =运算符，以及拷贝构造函数
 template<typename T>
 struct TreeNode {
     T key;
@@ -18,6 +18,7 @@ struct TreeNode {
                         lHeight(0), rHeight(0) 
                         {}
 };
+
 
 // 若使用自定义数据类型，请务必重载<, ==, =运算符，以及拷贝构造函数
 template<typename T>
