@@ -3,6 +3,7 @@
 #include<vector>
 using namespace std;
 
+
 /*
     性质： t[x] begin at 1
     1) t[x]结点覆盖的长度为len = lowbit(x);
