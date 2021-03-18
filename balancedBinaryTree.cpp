@@ -19,8 +19,7 @@ struct TreeNode {
                         {}
 };
 
-
-// 若使用自定义数据类型，请务必重载
+// 若使用自定义数据类型，请务必重载<, ==, =运算符，以及拷贝构造函数
 template<typename T>
 class BalancedBinaryTree {
 private:
